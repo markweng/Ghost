@@ -20,7 +20,6 @@ const tag = (attrs, frame) => {
     }
 
     delete attrs.parent_id;
-    delete attrs.parent;
 
     return attrs;
 };

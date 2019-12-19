@@ -5,6 +5,7 @@
             "entries": [
                 {
                     "name":             "Getting Started",
+                    "parent":           "start",
                     "slug":             "getting-started",
                     "description":      null,
                     "parent_id":        null,

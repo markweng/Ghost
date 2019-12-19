@@ -17,9 +17,7 @@ const tag = (attrs, frame) => {
             attrs.description = null;
         }
     }
-
     delete attrs.parent_id;
-    delete attrs.parent;
 
     return attrs;
 };

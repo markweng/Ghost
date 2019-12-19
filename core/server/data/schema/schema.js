@@ -162,6 +162,7 @@ module.exports = {
     tags: {
         id: {type: 'string', maxlength: 24, nullable: false, primary: true},
         name: {type: 'string', maxlength: 191, nullable: false, validations: {matches: /^([^,]|$)/}},
+        parent: {type: 'string', nullable: true},
         slug: {type: 'string', maxlength: 191, nullable: false, unique: true},
         description: {type: 'text', maxlength: 65535, nullable: true, validations: {isLength: {max: 500}}},
         feature_image: {type: 'string', maxlength: 2000, nullable: true},
